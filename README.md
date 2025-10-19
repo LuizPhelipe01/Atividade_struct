@@ -1,8 +1,5 @@
 # Atividade_struct
 
-![C](https://img.shields.io/badge/Linguagem-C-blue?style=for-the-badge&logo=c)
-![GDB Online](https://img.shields.io/badge/IDE-GDB%20Online-orange?style=for-the-badge&logo=gnu)
-
 ## ❓ O que o programa faz ❓
 
 > Este programa em linguagem C cadastra e avalia estudantes com base em duas notas.
