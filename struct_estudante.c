@@ -16,35 +16,36 @@ int main(){
 	printf("Numero de alunos: ");
 	scanf("%d", &aluno.quantidade);
 	if (aluno.quantidade >= 50 || aluno.quantidade <= 0){
-		printf("Numero Invalido. \n");
+		printf("\nNumero Invalido. ");
 	}
 	else {
 	
 		for( int i = 0; i < aluno.quantidade; i++){
+			
+			printf("\n-----------------------------------------");
 	
-	
-			printf("Digite seu nome: \n");
+			printf("\nDigite seu nome: ");
 			scanf("%s", &aluno.nome);
 			
-			printf("Digite seu rgm: \n");
+			printf("\nDigite seu rgm: ");
 			scanf("%d", &aluno.matricula);
 			
-			printf("sua primeira nota: \n");
+			printf("\nsua primeira nota: ");
 			scanf ("%f", &aluno.nota1);
 			
-			printf("sua segunda nota: \n");
+			printf("\nsua segunda nota: ");
 			scanf("%f", &aluno.nota2);
 			
 			aluno.media= (aluno.nota1 + aluno.nota2) /2;
 			
-			printf("sua media e: %.2f \n", aluno.media);
+			printf("\nMedia do %s: %.2f \n", aluno.nome, aluno.media);
 			
 			if (aluno.media >= 6 ){
-				printf("Aprovado(a)! \n");
+				printf("\nAprovado(a)! ");
 			} else if (aluno.media > 4 && aluno.media < 6){
-				printf("Recuperacao!\n");
+				printf("\nRecuperacao!");
 			}else{
-				printf("Reprovado(a)!");
+				printf("\nReprovado(a)!");
 			}
 		}
 	}
