@@ -1,92 +1,44 @@
 # Atividade_struct
 
-## 🧠 O que o programa faz
+![C](https://img.shields.io/badge/Linguagem-C-blue?style=for-the-badge&logo=c)
+![GDB Online](https://img.shields.io/badge/IDE-GDB%20Online-orange?style=for-the-badge&logo=gnu)
+
+## ❓ O que o programa faz ❓
 
 > Este programa em linguagem C cadastra e avalia estudantes com base em duas notas.
->
-> Ele: pergunta quantos alunos serão cadastrados (máx. 50).
->
-> Para cada aluno:
->
-> Pede o nome e o RGM (matrícula).
->
-> Solicita duas notas.
->
-> Calcula a média das notas.
->
->Exibe se o aluno está Aprovado, em Recuperação ou Reprovado.
->
->💡 É um exemplo simples de uso de estruturas (structs), laços de repetição (for) e condicionais (if/else) em C.
 
-## 🧩 Tecnologias e recursos utilizados
+> O programa pergunta quantos alunos serão cadastrados (máx. 50).
+
+> Para cada aluno: Pede o nome e o RGM (matrícula).
+
+> Solicita duas notas.
+
+> Calcula a média das notas.
+
+>Exibe se o aluno está Aprovado, em Recuperação ou Reprovado.
+
+## 👨‍💻 Tecnologias e recursos utilizados
 
 - Linguagem: C
 - Bibliotecas: <stdio.h>, <string.h>
 - Conceitos aplicados: Estrutura (struct), Estruturas de controle (if, else if, else, for), Entrada e saída padrão (scanf, printf)
 
-## ⚙️ Como instalar, compilar e executar o código
-1. Requisitos
-
-Você precisa de um compilador C, como:
-
-GCC (Linux ou Windows via MinGW)
-
-Dev-C++
-
-Code::Blocks
-
-VS Code com extensão para C/C++
-
-📦 2. Salvando o arquivo
-
-Salve o código em um arquivo com nome, por exemplo:
+## ⚙️ Como Executar o código.
+1. Abra o código no seu compilador C (Dev C++, Code::Blocks ou GDB Online).
+     
+2. Salve o código em um arquivo com nome, por exemplo:
 ```
 estudantes.c
 ```
-🧰 3. Compilando
-
-No terminal (ou prompt de comando), digite:
+3. Compile o programa: 
 ```
 gcc estudantes.c -o estudantes
 ```
-
-Isso criará um executável chamado estudantes.
-
-▶️ 4. Executando
-
-Depois, rode o programa:
+4. Execute:
 ```
 ./estudantes
 ```
-
-ou no Windows:
-```
-estudantes.exe
-```
 ## 🧮 Exemplo de uso
 
-Entrada:
-
-Numero de alunos: 2
-Digite seu nome:
-Maria
-Digite seu rgm:
-123
-sua primeira nota:
-8.0
-sua segunda nota:
-6.0
-
-
-Saída:
-
-sua media e: 7.00
-Aprovado(a)!
-
-## 📝 Informações adicionais
-
-> O programa não armazena os dados de vários alunos separadamente — ele reutiliza a mesma variável aluno em cada repetição do for.
->
-> O campo quantidade dentro da struct é usado apenas para controle, mas poderia estar fora (não precisa ser parte do aluno).
-> 
->O limite de 50 alunos é apenas uma validação simples; poderia ser ajustado facilmente.
+<p align="center"> <img src="imagens/exemplo_1.png" alt="Exemplo de 1 aluno" width="400"/> </p>
+<p align="center"> <img src="imagens/exemplo_2.png" alt="Exemplo com  2 alunos" width="400"/> </p>
