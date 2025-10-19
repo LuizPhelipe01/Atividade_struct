@@ -19,7 +19,8 @@
 
 ## 👨‍💻 Tecnologias e recursos utilizados
 
-- Linguagem: C
+- ![C](https://img.shields.io/badge/Linguagem-C-blue?style=for-the-badge&logo=c)
+- ![GDB Online](https://img.shields.io/badge/IDE-GDB%20Online-orange?style=for-the-badge&logo=gnu)
 - Bibliotecas: <stdio.h>, <string.h>
 - Conceitos aplicados: Estrutura (struct), Estruturas de controle (if, else if, else, for), Entrada e saída padrão (scanf, printf)
 
