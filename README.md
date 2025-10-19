@@ -40,5 +40,5 @@ gcc estudantes.c -o estudantes
 ```
 ## 🧮 Exemplo de uso
 
-<p align="center"> <img src="imagens/exemplo_1.png" alt="Exemplo de 1 aluno" width="400"/> </p>
-<p align="center"> <img src="imagens/exemplo_2.png" alt="Exemplo com  2 alunos" width="400"/> </p>
+<p align="center"> <img src="imagens/exemplo_1.png" alt="Exemplo com 1 aluno" width="400"/> </p>
+<p align="center"> <img src="imagens/exemplo_2.png" alt="Exemplo com 2 alunos" width="400"/> </p>
